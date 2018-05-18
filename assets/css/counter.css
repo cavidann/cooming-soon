@@ -1,0 +1,54 @@
+.words{
+    /* border: 1px solid; */
+    width: 48%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.words #counter, .words h2{
+    color:white;
+    font-size:85px;
+    font-weight: 700; 
+    text-align: center;
+}
+#day-word, #hour-word, #minute-word, #second-word{
+    font-size: 35px; 
+}
+
+.words #counter{
+    display: flex;
+    justify-content: center;
+}
+.words #counter div p{
+    line-height: 87px;
+    text-align: center
+    
+}
+.words #counter div p:last-child{
+    margin-top: -125px;
+    text-transform: capitalize;
+}
+.myclear{
+    clear: both;
+}
+.words #counter div{
+    padding-left: 85px;
+}
+.words #counter div p:first-child{
+    position: relative;
+    font-size:108px; 
+    /* display: inline-block; */
+}
+.words #counter div p:first-child:after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    border: 1px solid;
+}
+ *{
+    font-family: 'Open Sans', sans-serif;
+    
+ }
