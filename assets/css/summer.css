@@ -1,36 +1,26 @@
-
-body{
-    background: url('IMG_8300.jpg');
-    background-size:cover; 
-    padding: 0px;
-    margin:0px;
-}
-.summer{
+#canvas-basic {
+    position: absolute;
+    display: block;
     width: 100%;
     height: 100%;
-    opacity: 0.9;
-    background: linear-gradient(137deg, #22d0a3, #69c829, #c88529, #c88529);
-background-size: 800% 800%;
-
--webkit-animation: AnimationName 15s ease infinite;
--moz-animation: AnimationName 15s ease infinite;
-animation: AnimationName 15s ease infinite;
-
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+body{
+    background: url('../images/summer.jpg') no-repeat;
 }
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+ 
+.words{
+    bottom: 0px;
+    right: 0px;
+    transform: none;
 }
-@keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  
+ 
+.words #counter, .words h2 {
+    color: #171a1b;
 }
+  
